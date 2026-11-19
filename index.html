@@ -91,6 +91,22 @@
     footer{padding:34px 0 100px;background:#303a35;color:#f8f6f0}
     footer p{color:#d2d9d2;font-size:.88rem;margin:5px 0}
     .mobile-cta{display:none}
+    .about-photo {
+    min-height: 390px;
+    border-radius: 22px;
+    overflow: hidden;
+    padding: 0;
+}
+
+.about-portrait {
+    width: 100%;
+    height: 100%;
+    min-height: 390px;
+    object-fit: cover;
+    object-position: center top;
+    display: block;
+}
+
     @media(max-width:800px){
       .hero{padding:54px 0 60px}.hero-grid,.split{grid-template-columns:1fr;gap:34px}
       .portrait{min-height:0;max-width:440px;margin:auto;width:100%}.offer-chip{left:10px}
@@ -124,17 +140,17 @@
           <p class="lead">Sometimes, you don't need another opinion. You need someone who will listen, help you make sense of what you're experiencing, and support you as you find your next step.</p>
           <p class="muted">A friendly, private one-to-one conversation for young people and adults navigating relationships, family matters, personal decisions, confidence and life's transitions.</p>
           <div class="hero-actions">
-            <a class="btn" href="#booking">Book Your 30-Minute Session <span aria-hidden="true">&nbsp;→</span></a>
-            <span class="micro">PKR 1,000 · Online or in-person</span>
+            <a class="btn" href="#booking">Book Your 45-Minute Session <span aria-hidden="true">&nbsp;→</span></a>
+            <span class="micro">PKR 2,000 · Online or in-person</span>
           </div>
           <div class="student-offer" role="note">
-            <strong>Special offer for female students: 90% off</strong>
-            <span>Pay just <b>PKR 100</b> instead of PKR 1,000 for a 30-minute session. Student verification may be requested.</span>
+            <strong>Special offer for female students: 80% off</strong>
+            <span>Pay just <b>PKR 400</b> instead of PKR 2,000 for a 45-minute session. Student verification may be requested.</span>
           </div>
         </div>
         <div class="portrait">
           <img src="images/faiza.jpeg" alt="Faiza">
-          <div class="offer-chip"><b>30 minutes</b><small>Time set aside for you</small></div>
+          <div class="offer-chip"><b>45 minutes</b><small>Time set aside for you</small></div>
         </div>
       </div>
     </section>
@@ -179,22 +195,63 @@
       </div>
     </section>
 
-    <section>
-      <div class="wrap">
-        <div class="section-intro center">
-          <span class="eyebrow">A conversation for your stage of life</span>
-          <h2>Who Can Book a Session?</h2>
-          <p class="muted">People at different stages of life can benefit from having a thoughtful space to talk and reflect.</p>
-        </div>
-        <div class="audience">
-          <article class="card"><span class="symbol">✦</span><h3>Young People</h3><p>Study and career choices, confidence, friendships, peer pressure, independence and the transition into adulthood.</p></article>
-          <article class="card"><span class="symbol">♡</span><h3>Women</h3><p>Personal goals, family expectations, relationships, life transitions, responsibilities and making space for your own needs.</p></article>
-          <article class="card"><span class="symbol">◎</span><h3>Adults</h3><p>Work and life decisions, relationships, family matters, changing priorities, purpose and personal growth.</p></article>
-        </div>
-        <p class="micro center" style="margin-top:18px">Sessions for anyone under 18 require appropriate parent or guardian involvement and consent.</p>
-        <div class="center" style="margin-top:25px"><a class="btn" href="#booking">Book a 30-Minute Session</a></div>
-      </div>
-    </section>
+ 
+<section>
+  <div class="wrap">
+    <div class="section-intro center">
+      <span class="eyebrow">A space created for you</span>
+      <h2>Who Can Book a Session?</h2>
+      <p class="muted">
+        A safe, supportive and judgment-free space for girls
+        and women at different stages of life.
+      </p>
+    </div>
+
+    <div class="audience">
+      <article class="card">
+        <span class="symbol">✦</span>
+        <h3>Teenage Girls</h3>
+        <p>
+          Navigating adolescence, friendships, academic pressure,
+          self-confidence, emotions, peer pressure, family
+          expectations and finding your own identity.
+        </p>
+      </article>
+
+      <article class="card">
+        <span class="symbol">♡</span>
+        <h3>University Students & Young Women</h3>
+        <p>
+          Managing studies, career uncertainty, relationships,
+          self-doubt, independence, personal growth and the
+          challenges of transitioning into adulthood.
+        </p>
+      </article>
+
+      <article class="card">
+        <span class="symbol">❀</span>
+        <h3>Women</h3>
+        <p>
+          Balancing family and personal responsibilities,
+          relationships, emotional well-being, life transitions,
+          personal aspirations, boundaries and rediscovering yourself.
+        </p>
+      </article>
+    </div>
+
+    <p class="micro center" style="margin-top:18px">
+      Sessions for anyone under 18 require appropriate parent
+      or guardian involvement and consent.
+    </p>
+
+    <div class="center" style="margin-top:25px">
+      <a class="btn" href="#booking">
+        Book Your Private Session
+      </a>
+    </div>
+  </div>
+</section>
+
 
     <section class="soft">
       <div class="wrap">
@@ -215,7 +272,13 @@
     <section>
       <div class="wrap split">
         <div class="about-photo" aria-label="Replace with your personal photograph">
-          <div> <b>Your Name</b><span>Add your authentic professional portrait here</span></div>
+          <div class="about-photo">
+          <div> <b>Faiza Mahmood</b>
+             <img src="images/CounsellingSession.png"
+         alt="Faiza Mahmood - Life Coach"
+         class="about-portrait">
+          </div>
+          </div>
         </div>
         <div>
           <span class="eyebrow">A little about me</span>
@@ -238,7 +301,7 @@
           <details><summary>What can I talk about?</summary><p>You can bring up personal decisions, relationships, family matters, confidence, life changes, future plans or anything else within the scope of life coaching and personal development.</p></details>
           <details><summary>Do I need to prepare before the session?</summary><p>No. You can simply arrive as you are. If it helps, think about one thing you would like to talk through, but there is no requirement to prepare.</p></details>
           <details><summary>Are sessions online or in-person?</summary><p>Both options are available. The available format and location for an in-person meeting will be confirmed when arranging your appointment.</p></details>
-          <details><summary>How long is a session and what does it cost?</summary><p>Each session is 30 minutes and costs PKR 1,000.</p></details>
+          <details><summary>How long is a session and what does it cost?</summary><p>Each session is 45 minutes and costs PKR 1,000.</p></details>
           <details><summary>How do I choose my appointment time?</summary><p>First submit the booking form with your payment details. Once your payment is reviewed and approved, you will receive a scheduling link to select an available time.</p></details>
           <details><summary>Will what I share be kept private?</summary><p>Your privacy will be treated with care. Before booking, please review the privacy and confidentiality terms, including any legal, safety or safeguarding limits. Do not use this service for emergencies.</p></details>
           <details><summary>Is this therapy or mental-health treatment?</summary><p>No. This is a life-coaching and supportive listening service, not psychotherapy, diagnosis or medical treatment. If you need clinical or mental-health care, please contact a qualified mental-health professional.</p></details>
@@ -258,9 +321,9 @@
           <div class="price-row">
             <div><strong>Private 1-to-1 session</strong><div class="micro">Online or in-person · By appointment</div></div>
             <div>
-              <div class="price">PKR 1,000</div>
-              <div class="micro">30 minutes · Standard fee</div>
-              <div class="student-rate"><span>Female students: 90% off</span><strong>PKR 100</strong><small>With valid student verification</small></div>
+              <div class="price">PKR 2,000</div>
+              <div class="micro">45 minutes · Standard fee</div>
+              <div class="student-rate"><span>Female students: 80% off</span><strong>PKR 400</strong><small>With valid student verification</small></div>
             </div>
           </div>
           <h3>How booking works</h3>
@@ -270,7 +333,7 @@
             <div class="booking-step"><b>3. Choose your time</b>After approval, receive a link to select an available appointment.</div>
           </div>
           <h3 style="margin-top:30px">Complete your booking request</h3>
-          <p class="muted">Standard fee: PKR 1,000. Female students receive a 90% discount and pay PKR 100 after student verification. Please make the applicable payment and complete the form below. Your appointment is not confirmed until payment has been verified and a time has been selected.</p>
+          <p class="muted">Standard fee: PKR 2,000. Female students receive a 80% discount and pay PKR 400 after student verification. Please make the applicable payment and complete the form below. Your appointment is not confirmed until payment has been verified and a time has been selected.</p>
           <iframe class="form-frame"
             src="https://docs.google.com/forms/d/e/1FAIpQLSfbPdM5uXIXWrvl0ypeXlvtGLOfjtsyoeX9HZzce9Yu42DRkA/viewform?embedded=true"
             title="Life coaching session booking and payment form"
